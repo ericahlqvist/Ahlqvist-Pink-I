@@ -1,0 +1,15 @@
+.DS_Store
+massey
+Massey-pari.code-workspace
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+massey.dSYM/
+make.sh
+settings.json
+
+# Build directory
+build/
+*.o
+*.dSYM/
