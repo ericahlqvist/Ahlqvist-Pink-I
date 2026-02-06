@@ -16,7 +16,7 @@
 
 5. The folder "Data-analysis" contains a notebook where we analyze the SmallGroupId data obtained from Massey products and compare it to the IPAD data. One may run the script "setup_venv.sh" to create a virtual environment and install the necessary dependencies. The notebook produces a file "IPAD-and-ID-3.json" listing IPAD and small group id of ![equation](https://latex.codecogs.com/svg.image?\color{white}{G_K/D_4(G_K)}) for all discriminants in "discriminants_3_cyc_[3^m,3^n]". The notebook shows that for this list of discriminants, two discriminants with distinct small group ids never have equal IPADs, i.e. the IPAD determines the small group id. It then lists the number of IPADs of each type along with their associated small group id. We include a textfile with the output that we obtained from this count. The IPAD count matches the one in the paper of Boston–Bush–Hajir (https://link.springer.com/article/10.1007/s00208-016-1449-3), where they counted these IPADs but without the small groups ids. 
 
-=============================================================================================
+====================================================================================
 
 <b>Compile and run the C programs:</b>
 
