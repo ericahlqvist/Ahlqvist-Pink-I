@@ -1,4 +1,4 @@
-# Ahlqvist-Pink-I
+# Ahlqvist-Pink-I (Authors: Eric Ahlqvist and Richard Pink)
 
 1. The folder "Checking-powerfulness" contains a text file with GAP code that checks whether certain subgroups of a Schur ![equation](https://latex.codecogs.com/svg.image?\sigma)-group of Zassenhaus type (3,3) is powerful or not. 
 
