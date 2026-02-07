@@ -2,13 +2,13 @@
 
 1. The folder "Checking-powerfulness" contains a text file with GAP code that checks whether certain subgroups of a Schur $\sigma$-group of Zassenhaus type $(3,3)$ is powerful or not. 
 
-2. The folder "Massey" contains a C program built on PARI which computes cup products (in parallell) and computes certain 3-fold Massey products in the étale cohomology of the ring of integers of a number field $K$. Since the program was mainly used in the case $K$ is imaginary quadratic (i.e., cup products vanish), we have commented out the cup products part. In this case, the program also outputs generating relations for the group $G_K/D_4(G_K)$ where $G_K$ is the Galois group of the maximal unramified pro-$p$-extension of $K$. 
+2. The folder "Massey" contains a C program built on PARI which computes cup products (in parallell) and computes certain 3-fold Massey products in the étale cohomology of the ring of integers of a number field $K$. Since the program was mainly used in the case $K$ is imaginary quadratic (i.e., cup products vanish), we have commented out the cup products part. In this case, the program also outputs generating relations for the group $G_K/D_4(G_K)$ where $G_K$ is the Galois group of the maximal unramified pro-p-extension of $K$. 
 
 3. The folder "SmallGroupIds" contains:
     - "discriminants_3_cyc_[3^m,3^n]"; a file listing a discriminants $0>d>-10^8$ whose class group modulo 3 has rank 2 as a vector space over the field with three elements. This was obtained from LMFDB and filtered using a simple Python script.
     - "massey_relations_p_3.ipynb"; a Jupyter notebook with a script which calls the program "massey" of point 2 for every discriminant in "discriminants_3_cyc_[3^m,3^n]" and prints the generating relations (as described in point 2) to a GAP file "all_rels".
     - "all_rels_20260106a"; a GAP file as described in the the previous step and that we obtained 2026-01-06. 
-    - "gap-p-3-cyc-[3^m,3^n].ipynb"; a notebook taking "all_rels_20260106a" as input to compute the small group ids of the groups $G_K/D_4(G_K$ and compare the frequencies to the Pink–Rubio heuristics. 
+    - "gap-p-3-cyc-[3^m,3^n].ipynb"; a notebook taking "all_rels_20260106a" as input to compute the small group ids of the groups $G_K/D_4(G_K)$ and compare the frequencies to the Pink–Rubio heuristics. 
 
 4. The folder "IPADs" contains:
     - The folder "extension-class-groups" containing a C program built on PARI which computes class groups of all unramified degree p extensions of a number field. 
