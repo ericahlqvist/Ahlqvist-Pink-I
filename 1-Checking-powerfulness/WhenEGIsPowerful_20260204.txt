@@ -65,7 +65,7 @@ end;;
 
 # We denote by Di(G) the Zassenhaus filtration of G. For this we have D1=G,
 # and D2 is the Frattini subgroup, and the higher Di can be characterized by
-# Di(G) = \prod_{jp^k\ge i} Agemo{k}(Kj(G).
+# Di(G) = \prod_{jp^k\ge i} Agemo{k}(Kj(G)).
 
 # For any 3-group G the following macro computes D2(G):
 ComputeD2 := function(G)

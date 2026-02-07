@@ -2,7 +2,11 @@
 
 All files concern the case $p=3$.
 
-1. The folder "1-Checking-powerfulness" contains a text file "WhenEGIsPowerful_20260204.txt" with annotated GAP code that decides whether certain subgroups of a Schur $\sigma$-group of Zassenhaus type $(3,3)$ are powerful or not. It should run as is on any GAP installation.
+1. The folder "1-Checking-powerfulness" contains: 
+
+    - a text file "WhenEGIsPowerful_20260204.txt" with annotated GAP code that decides whether certain subgroups of a Schur $\sigma$-group of Zassenhaus type $(3,3)$ are powerful or not. It should run as is on any GAP installation.
+
+    - "WhenEGIsPowerful_20260204.ipynb"; a Jupyter notebook version of the previous, but including output.   
 
 2. The folder "2-Massey" contains a C program built on PARI which computes cup products (in parallel) and computes certain 3-fold Massey products in the étale cohomology of the ring of integers of a number field $K$. Since for the present purposes the program was used only for imaginary quadratic $K$, where cup products vanish, we have commented out the cup products part. In this case, the program also outputs generating relations for the factor group $G_K/D_4(G_K)$, where $G_K$ is the Galois group of the maximal unramified pro-{$p$}-extension of $K$.
 
