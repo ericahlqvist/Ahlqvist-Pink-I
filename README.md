@@ -18,7 +18,7 @@ All files concern the case $p=3$.
 
    - a Jupyter notebook "gap-p-3-cyc-[3^m,3^n].ipynb" computing from "all_rels" the isomorphism classes of $G_K/D_4(G_K)$ and prints it to the file "D-and-small-group-id.json". To each discriminant $d_K$ it associates a pair $[n,i]$ such that $G_K/D_4(G_K)$ is isomorphic to the group obtained by the GAP command "SmallGroup(n,i)".
 
-   - the Jupyter notebook "gap-p-3-cyc-[3^m,3^n].ipynb" also compares the observed frequencies of all small group ids to the conditional probabilities from the generalization of the Cohen-Lenstra heuristic, and prints this as a table in LaTex code.
+   - the Jupyter notebook "gap-p-3-cyc-[3^m,3^n].ipynb" also compares the observed frequencies of all small group ids to the conditional probabilities from the generalization of the Cohen–Lenstra heuristic, and prints this as a table in LaTex code.
 
 4. The folder "4-IPADs" contains:
     - a folder "extension-class-groups" containing a C program built on PARI which computes the class groups of all unramified degree p extensions of a number field.
