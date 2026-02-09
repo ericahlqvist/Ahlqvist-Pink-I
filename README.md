@@ -27,7 +27,7 @@ All files concern the case $p=3$.
 
 5. The folder "5-Data-analysis" contains a Jupyter notebook "explore-data.ipynb" which counts the number of IPADs of each kind and finds that there is for every IPAD $I$ a unique isomorphism class for $G_K/D_4(G_K)$ such that IPAD($G_K$) is $I$. The output is stored in IPADs.txt. The notebook produces a file "IPAD-and-ID-3.json" listing IPAD and small group id of $G_K/D_4(G_K)$ for all discriminants in "discriminants_3_cyc_[3^m,3^n]". 
 
-One may run the script "setup_venv.sh" to create a virtual environment and install the necessary dependencies. 
+    One may run the script "setup_venv.sh" to create a virtual environment and install the necessary dependencies. 
 
 ====================================================================================
 
