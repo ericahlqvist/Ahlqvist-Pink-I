@@ -1,6 +1,6 @@
 # Ahlqvist-Pink-I (Authors: Eric Ahlqvist and Richard Pink)
 
-All files concern the case $p=3$.
+All files concern the case $p=3$. One may read all the Jupyter notebooks including the output without installing anything. To run the notebooks, one must install the necessary dependencies. 
 
 1. The folder "1-Checking-powerfulness" contains: 
 
@@ -35,13 +35,12 @@ All files concern the case $p=3$.
 
 To run the C programs you must:
 
-    - Download and compile PARI (see https://pari.math.u-bordeaux.fr). 
+- Download and compile PARI (see https://pari.math.u-bordeaux.fr). 
 
-    - If you want to build using our Makefiles, set the PARI variable. On Unix systems: 
-        "export PARI={your_pari_location}".
+- If you want to build using our Makefiles, set the PARI variable. On Unix systems: "export PARI={your_pari_location}".
 
-    - Compile the massey program by running the command "make" in your terminal while in the directory "Massey".
+- Compile the massey program by running the command "make" in your terminal while in the directory "Massey".
 
-    - Once compiled, run it for ex. by running ./build/massey 3 "s^2+4027" in your terminal (in the directory Massey).  
+- Once compiled, run it for ex. by running ./build/massey 3 "s^2+4027" in your terminal (in the directory Massey).  
 
 
