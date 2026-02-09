@@ -37,10 +37,16 @@ To run the C programs you must:
 
 - Download and compile PARI (see https://pari.math.u-bordeaux.fr). 
 
-- If you want to build using our Makefiles, set the PARI variable. On Unix systems: "export PARI={your_pari_location}".
+- If you want to build using our Makefiles, set the PARI variable. On Unix systems: 
+
+    "export PARI={your_pari_location}"
 
 - Compile the massey program by running the command "make" in your terminal while in the directory "Massey".
 
-- Once compiled, run it for ex. by running ./build/massey 3 "s^2+4027" in your terminal (in the directory Massey).  
+- Once compiled, run it for ex. by running 
+
+    ./build/massey 3 "s^2+4027" 
+    
+in your terminal (in the directory Massey).  
 
 
