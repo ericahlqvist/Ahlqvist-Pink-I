@@ -23,7 +23,7 @@ All files concern the case $p=3$.
 4. The folder "4-IPADs" contains:
     - a folder "extension-class-groups" containing a C program built on PARI which computes the class groups of all unramified degree p extensions of a number field.
 
-    - a Jupyter notebook "IPADs.ipynb" which applies that program to every discriminant in 3. and produces a json file "IPADs.json".  
+    - a Jupyter notebook "IPADs.ipynb" which applies that program to every discriminant in 3 and computes the corresponding IPAD from the output. It produces a json file "IPADs.json".  
 
 5. The folder "5-Data-analysis" contains a Jupyter notebook "explore-data.ipynb" which counts the number of IPADs of each kind and finds that there is for every IPAD $I$ a unique isomorphism class for $G_K/D_4(G_K)$ such that IPAD($G_K$) is $I$. The output is stored in IPADs.txt. The notebook produces a file "IPAD-and-ID-3.json" listing IPAD and small group id of $G_K/D_4(G_K)$ for all discriminants in "discriminants_3_cyc_[3^m,3^n]". 
 
