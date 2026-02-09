@@ -42,7 +42,7 @@ To run the C programs you must:
 
 - Compile the massey program by running the command `make` in your terminal while in the directory `Massey`.
 
-- Once compiled, run it for ex. by running `./build/massey 3 `s^2+4027` 
+- Once compiled, run it for ex. by running `./build/massey 3 "s^2+4027" ` 
     
 in your terminal (in the directory Massey).  
 
